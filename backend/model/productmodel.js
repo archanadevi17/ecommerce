@@ -6,7 +6,7 @@ const productSchema=new mongoose.Schema({
     ratings:String,
     images:[ 
         {
-            image:String
+            image:String,
         }
     ],
     category:String,
