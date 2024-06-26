@@ -15,5 +15,5 @@ const productSchema=new mongoose.Schema({
     numofreviews:String,
     createdAt:Date,
 });
-const productModel=mongoose.model('product',productSchema);
-module.exports=productModel;
+const productmodel=mongoose.model('product',productSchema);
+module.exports=productmodel;
