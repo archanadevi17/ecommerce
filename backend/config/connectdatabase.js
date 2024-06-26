@@ -4,9 +4,7 @@ const connectdatabase=() =>{
         console.log('Mongo DB is Connected to host:'+con.connection.host)
     })
 }; 
-module.exports=connectdatabase;      
-
-//archa
+module.exports=connectdatabase;
 
 
 
