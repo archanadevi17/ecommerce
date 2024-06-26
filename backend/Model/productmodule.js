@@ -13,7 +13,7 @@ const productSchema=new mongoose.Schema({
     seller:String,
     stock:String,
     numofreviews:String,
-    createdat:Date,
+    createdAt:Date,
 });
 const productModel=mongoose.model('product',productSchema);
 module.exports=productModel;
